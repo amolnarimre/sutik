@@ -11,6 +11,10 @@
   font-family: myfont;
 }
 
+brown{
+  color: brown;
+}
+
 body {
   background-image: url(background.png);
   background-repeat: no-repeat;
@@ -26,15 +30,10 @@ main {
   background-color: #ffffff;
   border-radius: 12px;
   border: 3px solid black;
-  padding: 55px 45px 25px 45px;
+  padding: 55px 45px 55px 45px;
 }
 
-section {
-  margin: 32px;
-  display: grid;
-  max-width: 1080px;
-  margin: auto;
-}
+
 
 a {
   color: #8d5b1a;
@@ -47,9 +46,20 @@ a {
   margin-right: 5px;
 }
 
+
+
 h1 {
   font-size: 28px;
   font-weight: 400;
+  
+}
+
+
+section {
+  margin: 32px;
+  display: grid;
+  max-width: 1080px;
+  margin: auto;
 }
 
 .limited {
@@ -88,6 +98,7 @@ article img {
   height: fit-content;
   max-width: 1080px;
   margin: auto;
+  padding-top: px;
 
   /* background-color: purple; */
 }
@@ -101,12 +112,14 @@ th {
   padding-bottom: 10px;
 }
 
-td {
+.barna_bg, .vilagos_bg {
   padding-left: 10px;
 }
 
-th {
+.name, .calories, .ingredients{
   text-align: center;
+  background-color: #8d5b1a;
+  color: #feda70;
 }
 
 table {
